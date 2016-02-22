@@ -1,5 +1,5 @@
 # Guía de estilos proyecto Kids Code
-Color
-Tipografía
-Botones
-Formularios
+1. Color
+2. Tipografía
+3. Botones
+4. Formularios
