@@ -20,16 +20,17 @@ body{
     }
 	.titulo{
     font-size: 1.65rem;
-		font-weight: 700;
+    font-weight: 700;
+    margin-right: 10px;
 }
 .h1_adult{
     font-size: 1rem;
     line-height: 2.5rem;
     margin-top: 1.36rem;
     margin-bottom: 1.36rem;
-	  font-family: 'Montserrat Alternates', sans-serif;
-	  font-weight: 700;
-		color:#11bbcc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+		color:#33bb44;
 }
 }
 @media only screen and (min-width: 768px){
@@ -69,6 +70,17 @@ body{
 		font-weight: 700;
 }
 
+}
+
+.yellow{
+    background-color: #ffcc00;
+}
+.prova {
+border: 10px solid #ffffff;
+margin: 0;
+padding: 0;
+border-radius: 800px;
+overflow: hidden;
 }
 
 
@@ -114,7 +126,6 @@ color:black;
 	
 }
 .container_txt2{
-	border:1px solid blue;
 	padding-left: 18px;
 	
 }
@@ -124,6 +135,7 @@ color:black;
 	flex-wrap: wrap;
 	align-items: center;
     justify-content: center;
+    padding:14px
 
 	
 	
@@ -341,7 +353,7 @@ h6{
     margin-bottom: 1.4rem;
 	  font-family: 'Montserrat Alternates', sans-serif;
 	  font-weight: 700;
-		color:#11bbcc;
+		color:#33bb44;
 
 }
 .h2_adult{
@@ -622,7 +634,7 @@ h6{
   display: inline-block;
 	padding: 36px;
 	margin: 6px;
-	border-radius:50px;
+	border-radius:100px;
 	background-color: #1b6425;
 	color:#ffffff;
   border: 5px solid #ffffff;
@@ -665,17 +677,17 @@ h6{
 }
 .button_can_sm {
   display: inline-block;
-	padding: 16px;
+	padding: 10px 24px;
 	margin: 6px;
 	border-radius:50px;
 	background-color: #ff0000;
 	color:#ffffff;
-  border: 5px solid #ffffff;
+    border: 5px solid #ffffff;
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-weight: 400;
 	font-size:16px;
 	letter-spacing: 1px;
-  text-decoration: none;
+    text-decoration: none;
 	box-shadow:#B9B7B7 0px 3px 3px;
 	margin-bottom: 12px;
 }
@@ -686,7 +698,7 @@ h6{
 }
 .button_ace_sm {
   display: inline-block;
-	padding: 16px;
+	padding: 10px 24px;
 	margin: 6px;
 	border-radius:50px;
 	background-color: #ffffff;
@@ -764,6 +776,23 @@ h6{
     display: inline-block;
 	margin:6px 12px 0 0;
 	cursor:pointer;
+}
+.botones{
+    text-decoration:none;
+	text-align:left;
+	letter-spacing: 1px;
+	cursor:pointer;
+	margin: 2px 3px 3px 3px;
+	padding:10px 10px 10px 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size:15px;
+}
+.botones:hover{
+	
+	padding:5px 10px 5px 10px;					    
+    border-radius:3px;
+}
 
 }
 /*FORMULARIOS*/
