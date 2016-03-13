@@ -1,5 +1,5 @@
 # Style Guide · Kids Code
-Refactoring SASS.
+## Refactoring SASS
 1. Color
 2. Typography
 3. Buttons
