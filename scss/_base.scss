@@ -1,0 +1,114 @@
+body{
+  	font-size:16px;
+		font-family: 'Source Sans Pro', sans-serif;
+	  font-weight: 400;
+    background:url("ritmo.gif");
+    text-rendering: optimizeLegibility;
+ 		width:100%;  
+		min-width: 320px;
+		color: #404040;
+
+}
+/*Media Query*/
+@media only screen and (min-width: 320px) {
+    body {
+        background-color: lightblue;
+    }
+    .columns{-webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    }
+	.titulo{
+    font-size: 1.65rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.h1_adult{
+    font-size: 1rem;
+    line-height: 2.5rem;
+    margin-top: 1.36rem;
+    margin-bottom: 1.36rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+		color:#33bb44;
+}
+}
+@media only screen and (min-width: 768px){
+    body {
+        background-color: orange;
+    }
+    .columns{-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    }
+		.columns_img{-webkit-column-count: 1;
+    -moz-column-count: 1;
+		column-count: 1;
+    }
+	.titulo{
+    font-size: 2rem;
+		font-weight: 700;
+}
+
+    
+}
+    
+@media only screen and (min-width: 1280px){
+    body {
+        background-color: #89ecf5;
+    }
+    .columns{-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    }
+	.columns_img{-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    }
+	.titulo{
+    font-size: 2rem;
+		font-weight: 700;
+}
+
+}
+
+.yellow{
+    background-color: #ffcc00;
+}
+.prova {
+border: 10px solid #ffffff;
+margin: 0;
+padding: 0;
+border-radius: 800px;
+overflow: hidden;
+}
+
+
+hr{
+    border: 1px dotted black;
+		margin: 0px 0 32px 0;
+}
+.l_separa{
+	border: 1px dotted black;
+		margin: 24px 0 12px 0;
+}
+a{text-decoration: none;
+color:black;
+}
+
+#cabecera{
+	width:100%;
+	height:85px;
+	background-color:rgba(17,187,204,0.9);
+	position:fixed; /*!*/
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	z-index:5; /*!*/
+	margin-left:-20px;
+	padding-bottom: 10px;
+	border:1px dotted silver;
+	box-shadow:#B9B7B7 0px 5px 10px;
+  margin:0px;
+	
+}
