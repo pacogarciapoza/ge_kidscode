@@ -7,7 +7,7 @@ body {
 
 @media only screen and (min-width: 320px) {
   body {
-    background: url("../img/back.svg");
+    background: url("../img/back-f.svg");
     background-attachment: fixed;
     background-color: lightblue; }
   .container-round {
@@ -15,7 +15,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   body {
-    background: url("../img/back.svg");
+    background: url("../img/back-f.svg");
     background-attachment: fixed;
     background-color: orange; }
   .columns {
@@ -31,7 +31,7 @@ body {
 
 @media only screen and (min-width: 1280px) {
   body {
-    background: url("../img/back.svg");
+    background: url("../img/back-f.svg");
     background-attachment: fixed;
     background-repeat: repeat;
     background-color: #0489b1; }
@@ -589,7 +589,7 @@ h2 {
   line-height: 2rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  color: #0a6d76; }
+  color: #404040; }
 
 h3 {
   font-size: 1.35rem;

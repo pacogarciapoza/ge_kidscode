@@ -8,7 +8,8 @@ body{
 //Media Query
 @media only screen and (min-width: 320px) {
     body {
-        background: url("../img/back.svg");
+        background: url("../img/back-f.svg");
+        //background: url("../img/back.svg");
         background-attachment: fixed;
         background-color: lightblue;
     }
@@ -19,7 +20,8 @@ body{
 
 @media only screen and (min-width: 768px){
     body {
-        background: url("../img/back.svg");
+        background: url("../img/back-f.svg");
+        //background: url("../img/back.svg");
         background-attachment: fixed;
         background-color: orange;
     }
@@ -37,7 +39,8 @@ body{
 
 @media only screen and (min-width: 1280px){
     body {
-    background: url("../img/back.svg");
+    background: url("../img/back-f.svg");
+    //background: url("../img/back.svg");
     background-attachment: fixed;
     background-repeat: repeat;
     background-color:#0489b1;
