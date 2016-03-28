@@ -1,0 +1,37 @@
+/*CONTENEDORES*/ 
+
+//contenedores de texto
+.container_txt{
+	
+	padding: 10px;	
+}
+
+
+.seccion{
+	margin-top: 20px;
+}
+
+//máscara contenedora imágenes redonda
+.container-mask{
+	border:10px solid #999999;
+	box-shadow:#B9B7B7 0px 3px 2px;
+	margin:auto;
+	padding:0;
+	border-radius: 800px;
+}
+
+.container-rectangle{
+	float:left;
+	margin-bottom: 16px;
+	width:350px;
+}
+
+.container-round{
+	float:left;
+	width: 315px;
+	height: 315px;
+	background-color: #ffffff;
+	border: 5px solid #f2f2f2;
+	border-radius: 100%;
+
+}
