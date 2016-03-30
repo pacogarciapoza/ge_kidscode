@@ -20,6 +20,7 @@
 			border-radius:10px;
 			padding: 24px;
 			transition: all 0.3s ease 0s;
+			text-transform: uppercase;
 		}
 		&-act:hover{
 			background-color: #11bbcc;
@@ -38,6 +39,7 @@
 			font-size:16px;
 			border-radius:10px;
 			padding: 24px;
+			text-transform: uppercase;
 		}
 
 		&-dwnld{
@@ -48,16 +50,17 @@
 			color:#ffffff;
 			font-weight: 400;
 			text-decoration: none;
-			background-color: #d93560;
+			background-color: #11bbcc;
 			cursor:pointer;
 			font-size:16px;
 			border-radius:10px;
 			padding: 20px;
 			transition: all 0.3s ease 0s;
+			text-transform: uppercase;
 		}
 
 		&-dwnld:hover{
-			background-color: #11bbcc;
+			background-color: #ff6633;
 			box-shadow:#B9B7B7 0px 1px 1px;
 		}
 

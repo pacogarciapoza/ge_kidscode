@@ -371,7 +371,8 @@ body {
   border-radius: 10px;
   padding: 24px;
   -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase; }
 
 .btn-act:hover {
   background-color: #11bbcc;
@@ -388,7 +389,8 @@ body {
   background-color: #999999;
   font-size: 16px;
   border-radius: 10px;
-  padding: 24px; }
+  padding: 24px;
+  text-transform: uppercase; }
 
 .btn-dwnld {
   display: inline-block;
@@ -398,16 +400,17 @@ body {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  background-color: #d93560;
+  background-color: #11bbcc;
   cursor: pointer;
   font-size: 16px;
   border-radius: 10px;
   padding: 20px;
   -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase; }
 
 .btn-dwnld:hover {
-  background-color: #11bbcc;
+  background-color: #ff6633;
   box-shadow: #B9B7B7 0px 1px 1px; }
 
 .btn-round {
