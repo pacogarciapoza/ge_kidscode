@@ -16,6 +16,53 @@ body{
     .container-round{
         margin:auto;
     }
+    .font1{
+        font-size:3rem;
+    }
+    .font2{
+        font-size:3rem;
+    }
+
+    h1{
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color:#11bbcc;
+
+}
+    h2{
+    font-size: 1.5rem;
+    line-height:2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color:#404040;
+    
+}
+h3{
+    font-size: 1.15rem;
+    line-height:2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color:#404040;
+    
+    }
+    .container-round{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 5px solid #f2f2f2;
+    border-radius: 100%;
+    margin:auto;
+
+}
+.logo-txt{
+  font-family: 'montserrat alternates', sans-serif;
+  font-size: 1.75rem;
+  margin-right:24px;
+  font-weight: 700;
+}
 }
 
 @media only screen and (min-width: 768px){
@@ -35,6 +82,59 @@ body{
         justify-content: flex-start;
     }
 
+    .font1{
+        font-size:4rem;
+    }
+
+    .font2{
+        font-size:4rem;
+    }
+       h1{
+    font-size: 2.18rem;
+    line-height: 2.5rem;
+    margin-top: 1.36rem;
+    margin-bottom: 1.36rem;
+    font-weight: 700;
+    color:#11bbcc;
+
+}
+h2{
+    font-size: 1.75rem;
+    line-height:2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color:#404040;
+    
+}
+h3{
+    font-size: 1.35rem;
+    line-height:2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color:#404040;
+    
+    }
+    .container-rectangle{
+    float:left;
+    margin-bottom: 16px;
+    width:350px;
+}
+.container-round{
+    float:left;
+    width: 315px;
+    height: 315px;
+    background-color: #ffffff;
+    border: 5px solid #f2f2f2;
+    border-radius: 100%;
+
+}
+.logo-txt{
+  font-family: 'montserrat alternates', sans-serif;
+  font-size: 2.25rem;
+  margin-right:24px;
+  font-weight: 700;
+
+}
 }
 
 @media only screen and (min-width: 1280px){
@@ -61,5 +161,57 @@ body{
     .one-column{
         max-width: 700px;
         justify-content: flex-start;
+    }
+
+    .font1{
+        font-size:4rem;
+    }
+
+    .font2{
+        font-size:4rem;
+    }
+    h1{
+        font-size: 2.18rem;
+        line-height: 2.5rem;
+        margin-top: 1.36rem;
+        margin-bottom: 1.36rem;
+        font-weight: 700;
+        color:#11bbcc;
+
+    }
+    h2{
+        font-size: 1.75rem;
+        line-height:2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        color:#404040;
+    
+    }
+    h3{
+        font-size: 1.35rem;
+        line-height:2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        color:#404040;
+    
+    }
+    .container-rectangle{
+        float:left;
+        margin-bottom: 16px;
+        width:350px;
+    }
+    .container-round{
+        float:left;
+        width: 315px;
+        height: 315px;
+        background-color: #ffffff;
+        border: 5px solid #f2f2f2;
+        border-radius: 100%;
+    }
+    .logo-txt{
+        font-family: 'montserrat alternates', sans-serif;
+        font-size: 2.25rem;
+        margin-right:24px;
+        font-weight: 700;
     }
 }

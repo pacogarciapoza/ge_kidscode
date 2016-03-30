@@ -83,13 +83,13 @@
       background-color: #ffffff;
       align-items:center;
       justify-content:flex-end;
-      width:85%;
+      width:90%;
       height: 192px;
       margin:auto;
-      margin:24px 0 24px 0;
       border: 1px solid silver;
       border-radius:8px;
       padding:24px;
+      
 }
 
     &-headng-sm{
@@ -101,6 +101,7 @@
       margin:auto;
       border-bottom:1px dotted #999999;
       padding:-10px;
+      
   }
 }
 
@@ -151,7 +152,7 @@
       flex: 1;
       background-color: #FFFFFF;
       margin:0px 0px 5px 5px;
-      padding:2rem;
+      padding:0rem;
       color:#4C4F4F;
       letter-spacing:1px;
       box-shadow:#B9B7B7 0px 3px 2px;
@@ -199,9 +200,7 @@
 .sub-title-txt{
   font-family: 'source sans pro', sans-serif;
   font-size: 1.25rem;
-  margin:1.5rem 0 0 0rem;
-
-  
+  margin:1.5rem 0 0 0rem;  
 }
 
 .font1{
