@@ -11,13 +11,12 @@ a {
   line-height: 1.5rem;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-  color: #1794cf; }
+  color: #404040; }
 
 p {
   font-size: 1rem;
   line-height: 1.45rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
   color: #0a6d76; }
 
 h1 {
@@ -343,6 +342,10 @@ h6 {
   margin: 0 .35rem;
   width: 2rem; }
 
+.btn-menu-bg {
+  margin: 0 1rem 0 1.5rem;
+  width: 3rem; }
+
 .logo-txt {
   font-family: 'montserrat alternates', sans-serif;
   font-size: 2.25rem;
@@ -394,7 +397,7 @@ h6 {
   border: 10px solid #999999;
   box-shadow: #B9B7B7 0px 3px 2px;
   margin: auto;
-  padding: 0;
+  padding: 0px;
   border-radius: 800px; }
 
 .container-rectangle {
@@ -406,7 +409,8 @@ h6 {
   height: 315px;
   background-color: #ffffff;
   border: 5px solid #f2f2f2;
-  border-radius: 100%; }
+  border-radius: 100%;
+  margin-right: 24px; }
 
 body {
   background: url("../img/aaa.jpg");
@@ -419,13 +423,13 @@ body {
   body {
     background: url("../img/back-f.svg");
     background-attachment: fixed;
-    background-color: lightblue; }
+    background-color: #33bb44; }
   .container-round {
     margin: auto; }
   .font1 {
-    font-size: 3rem; }
+    font-size: 2.75rem; }
   .font2 {
-    font-size: 3rem; }
+    font-size: 2.75rem; }
   h1 {
     font-size: 1.75rem;
     line-height: 2rem;
@@ -454,8 +458,8 @@ body {
     margin: auto; }
   .logo-txt {
     font-family: 'montserrat alternates', sans-serif;
-    font-size: 1.75rem;
-    margin-right: 24px;
+    font-size: 0rem;
+    margin: 0 1rem 0 1rem;
     font-weight: 700; } }
 
 @media only screen and (min-width: 768px) {
@@ -498,7 +502,7 @@ body {
     color: #404040; }
   .container-rectangle {
     float: left;
-    margin-bottom: 16px;
+    margin: 0 1rem 1rem 0;
     width: 350px; }
   .container-round {
     float: left;
@@ -511,14 +515,17 @@ body {
     font-family: 'montserrat alternates', sans-serif;
     font-size: 2.25rem;
     margin-right: 24px;
-    font-weight: 700; } }
+    font-weight: 700; }
+  .columns-img {
+    height: auto;
+    margin-left: 1rem; } }
 
 @media only screen and (min-width: 1280px) {
   body {
     background: url("../img/back-f.svg");
     background-attachment: fixed;
     background-repeat: repeat;
-    background-color: #0489b1; }
+    background-color: #00ffff; }
   .columns {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -527,7 +534,8 @@ body {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    height: 322px; }
+    height: 280px;
+    margin-left: 1rem; }
   .one-column {
     max-width: 700px;
     -webkit-box-pack: start;
@@ -566,8 +574,9 @@ body {
     width: 315px;
     height: 315px;
     background-color: #ffffff;
-    border: 5px solid #f2f2f2;
-    border-radius: 100%; }
+    border: 3px solid #f2f2f2;
+    border-radius: 100%;
+    margin-right: 24px; }
   .logo-txt {
     font-family: 'montserrat alternates', sans-serif;
     font-size: 2.25rem;
@@ -576,18 +585,18 @@ body {
 
 /*BOTONES*/
 .btn-cam {
-  box-shadow: #B9B7B7 0px 3px 3px; }
+  box-shadow: #c1c1c1 0px 3px 3px; }
 
 .btn-act {
   display: inline-block;
   margin: 12px;
-  box-shadow: #B9B7B7 0px 3px 3px;
+  box-shadow: #c1c1c1 0px 3px 3px;
   border: 5px solid #ffffff;
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  background-color: #d93560;
-  font-size: 16px;
+  background-color: #0097e8;
+  font-size: 1rem;
   border-radius: 10px;
   padding: 24px;
   -webkit-transition: all 0.3s ease 0s;
@@ -595,13 +604,73 @@ body {
   text-transform: uppercase; }
 
 .btn-act:hover {
-  background-color: #11bbcc;
-  box-shadow: #B9B7B7 0px 1px 1px; }
+  background-color: #d93560;
+  box-shadow: #c1c1c1 0px 1px 1px; }
+
+.btn-rnd-blue-act {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  box-shadow: #c1c1c1 0px 3px 3px;
+  border: 5px solid #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #0097e8;
+  font-size: 1rem;
+  border-radius: 100%;
+  padding: 24px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase; }
+
+.btn-rnd-blue-act:hover {
+  background-color: #d93560;
+  box-shadow: #c1c1c1 0px 1px 1px; }
+
+.btn-rnd-red-act {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  box-shadow: #c1c1c1 0px 3px 3px;
+  border: 5px solid #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #d93560;
+  font-size: 1rem;
+  border-radius: 100%;
+  padding: 24px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase; }
+
+.btn-rnd-red-act:hover {
+  background-color: #0097e8;
+  box-shadow: #c1c1c1 0px 1px 1px; }
+
+.btn-rnd-green-act {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  box-shadow: #c1c1c1 0px 3px 3px;
+  border: 5px solid #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #33BB44;
+  font-size: 1rem;
+  border-radius: 100%;
+  padding: 24px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase; }
+
+.btn-rnd-green-act:hover {
+  background-color: #d93560;
+  box-shadow: #c1c1c1 0px 1px 1px; }
 
 .btn-inact {
   display: inline-block;
   margin: 12px;
-  box-shadow: #B9B7B7 0px 3px 3px;
+  box-shadow: #c1c1c1 0px 3px 3px;
   border: 5px solid #ffffff;
   color: #ffffff;
   font-weight: 400;
@@ -615,7 +684,7 @@ body {
 .btn-dwnld {
   display: inline-block;
   margin: 12px;
-  box-shadow: #B9B7B7 0px 3px 3px;
+  box-shadow: #c1c1c1 0px 3px 3px;
   border: 5px solid #ffffff;
   color: #ffffff;
   font-weight: 400;
@@ -631,7 +700,7 @@ body {
 
 .btn-dwnld:hover {
   background-color: #ff6633;
-  box-shadow: #B9B7B7 0px 1px 1px; }
+  box-shadow: #c1c1c1 0px 1px 1px; }
 
 .btn-round {
   display: inline-block;
@@ -735,6 +804,9 @@ body {
 
 .color-lnk-blue-drk {
   color: #0a6d76; }
+
+.color-title-green {
+  color: #33bb44; }
 
 label {
   font-size: 14px;

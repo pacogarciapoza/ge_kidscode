@@ -11,16 +11,16 @@ body{
         background: url("../img/back-f.svg");
         //background: url("../img/back.svg");
         background-attachment: fixed;
-        background-color: lightblue;
+        background-color: #33bb44;
     }
     .container-round{
         margin:auto;
     }
     .font1{
-        font-size:3rem;
+        font-size:2.75rem;
     }
     .font2{
-        font-size:3rem;
+        font-size:2.75rem;
     }
 
     h1{
@@ -59,8 +59,8 @@ h3{
 }
 .logo-txt{
   font-family: 'montserrat alternates', sans-serif;
-  font-size: 1.75rem;
-  margin-right:24px;
+  font-size: 0rem;
+  margin:0 1rem 0 1rem;
   font-weight: 700;
 }
 }
@@ -89,7 +89,7 @@ h3{
     .font2{
         font-size:4rem;
     }
-       h1{
+h1{
     font-size: 2.18rem;
     line-height: 2.5rem;
     margin-top: 1.36rem;
@@ -116,7 +116,7 @@ h3{
     }
     .container-rectangle{
     float:left;
-    margin-bottom: 16px;
+    margin: 0 1rem 1rem 0;
     width:350px;
 }
 .container-round{
@@ -135,15 +135,18 @@ h3{
   font-weight: 700;
 
 }
+.columns-img{
+    height: auto;
+    margin-left:1rem;
+    }
 }
-
 @media only screen and (min-width: 1280px){
     body {
     background: url("../img/back-f.svg");
     //background: url("../img/back.svg");
     background-attachment: fixed;
     background-repeat: repeat;
-    background-color:#0489b1;
+    background-color:#00ffff;
 
     }
     .columns{-webkit-column-count: 3;
@@ -154,7 +157,8 @@ h3{
    .columns-img{-webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    height: 322px;
+    height: 280px;
+    margin-left:1rem;
 
     }
     
@@ -205,8 +209,9 @@ h3{
         width: 315px;
         height: 315px;
         background-color: #ffffff;
-        border: 5px solid #f2f2f2;
+        border: 3px solid #f2f2f2;
         border-radius: 100%;
+        margin-right: 24px;
     }
     .logo-txt{
         font-family: 'montserrat alternates', sans-serif;
